@@ -36,7 +36,7 @@ No build step and no dependencies. Every file works from `file://`.
 | Path | What it is |
 |---|---|
 | `css/tokens.css` | Every design value as CSS custom properties: colour, type, space, radius, shadow, motion, partner slot |
-| `tokens/tokens.json` | The same tokens in W3C design-tokens format (for Figma Tokens, Style Dictionary, code) |
+| `tokens/tokens.json` | The same tokens in W3C design-tokens format (for Style Dictionary, Tokens Studio or code) |
 | `css/base.css` | Reset and type defaults |
 | `css/components.css` | All `.hd-*` components |
 | `css/scene.css` | Stage, shape-morph shell and player for animated scenes |

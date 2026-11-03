@@ -17,7 +17,7 @@ When a partner's product is on screen, its brand colour takes over the accent th
 
 ## 5. No people, no photos, no real data
 - No people, illustrations of people, stock photos or real patient or hospital footage. Use mockups, cards, maps, dots and counters.
-- All data is fake and clearly fake. Anything that stands in for a real number uses the placeholder style `[N]` (`.hd-ph`) until it's confirmed (`docs/content.md`).
+- All data is fake. Numbers are illustrative and replaced per use case; confirmed figures only in public pieces (`docs/content.md`).
 - Partner screenshots and government marks need sign-off before anything is published (`docs/assets.md`).
 
 ## 6. One shape, many states

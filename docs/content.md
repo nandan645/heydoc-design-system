@@ -24,8 +24,8 @@ The recurring thread: **every result should come with a clear next step.**
 
 - Indian formats: ₹, lakh/crore grouping (`1,50,000`, `₹300 Cr`), "Cr" with a space. `toLocaleString('en-IN')`.
 - Units small and after the number (`15M+`, `42 min`), tabular numerals.
-- **Every unconfirmed number is a placeholder**: `[N]`, `[X%]`, `[₹]`, `[date]`, styled with `.hd-ph`. Demo numbers in mockups (queues, times) are fine but must look like illustrations, not claims.
-- Keep a register of every number that appears in a public piece, with its source (see `open-items.md`).
+- Numbers in examples and templates are **illustrative** and get replaced per use case. Use plausible values, or `[N]`, `[X%]`, `[₹]`, `[date]` (styled with `.hd-ph`) when you want the gap to be obvious.
+- Anything going public uses confirmed figures; keep a note of each number's source for that piece.
 
 ## Names
 
