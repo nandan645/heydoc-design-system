@@ -36,7 +36,7 @@ Red count bubble; "3 unread messages" pill.
 ### Toggle · `.hd-toggle` (`.is-on`), progress · `.hd-progress` (`--thin --mint --amber --rose`, set `--p:62%` on `.hd-progress__fill`)
 
 ### Placeholder value · `.hd-ph`
-Yellow highlight for any number not yet confirmed: `<span class="hd-ph">[X%]</span>`. **Never ship a frame with an unmarked fake number** (see `content.md`).
+Yellow highlight for a figure you don't have yet: `<span class="hd-ph">[X%]</span>`. Numbers are illustrative and set per use case (see `content.md`).
 
 ### Slot · `.hd-slot`
 Dashed "PLACEHOLDER" box for a logo or screen still to be supplied.

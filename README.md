@@ -77,6 +77,15 @@ python3 scripts/check_tokens.py   # tokens.json and tokens.css must agree
 
 Needs Python 3.9+ (standard library only).
 
+## Publishing to GitHub
+
+The repository is local (branch `main`, version tags `v1.0.0` …). Create an empty **private** repo on GitHub, then from this folder:
+
+```bash
+git remote add origin https://github.com/<org>/heydoc-design-system.git
+git push -u origin main --tags
+```
+
 ## Ownership
 
 Design: **Abhinandan Kumar** (abhinandan@heydoc.co.in) · HeyDoc AI.

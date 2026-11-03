@@ -3,9 +3,12 @@
 All notable changes to the HeyDoc Design System. Format: [Keep a Changelog](https://keepachangelog.com), versions: [SemVer](https://semver.org).
 
 ## [Unreleased]
+
+## [1.0.2] · 2026-11-03
 ### Changed
 - Numbers in examples are illustrative by design (replaced per use case); docs updated.
 - No Figma library: the repository is the source of truth.
+- README: how to publish to GitHub.
 
 ## [1.0.1] · 2026-11-03
 ### Removed
