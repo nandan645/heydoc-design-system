@@ -68,7 +68,7 @@ In scenes, wrap each word in `<span class="w">` so headlines can rise word by wo
 | Agent card (E-09) | `.hd-agent.is-idle` / `.is-active` + `__head __name __role __status __dot __task`, `.hd-progress` | Active = gradient border + glow. Width via `--agent-w` |
 | Big number (E-07) | `.hd-bignum--light`, `.hd-counter` (`__pre __num __unit`, `--to` with `__from __arrow`) | Full-screen counter, `--cnt-fs` sets size |
 | Window (E-04) | `.hd-window`, `.hd-sheet`, `.hd-minidash`, `.hd-notif`, `.hd-queue` | "Chaos" elements: spreadsheets, dashboards, queues |
-| Logo tile / ring (E-15) | `.hd-logotile` (`--navy` for white logos), `.hd-logoring`, `.hd-logo` | Logos sit on white tiles, height-matched |
+| Logo tile / ring (E-15) | `.hd-logotile` (`--navy` only for partner logos drawn in white, e.g. ClearMedi), `.hd-logoring`, `.hd-logo` | Logos sit on white tiles, height-matched |
 | End card (E-19) | `.hd-end--light` + `__lockup __tag __url __bg` | Logo, "The Agentic Care OS", heydoc.co.in |
 
 ---

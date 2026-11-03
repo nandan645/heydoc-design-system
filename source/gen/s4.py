@@ -242,7 +242,7 @@ def e18():
 def endcard(dark=False):
     bg=('<svg class="hd-end__bg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="'+('#139bf5' if dark else '#8fcdf8')+'" stroke-width="3" opacity="'+('.25' if dark else '.6')+'">'
         '<circle cx="960" cy="420" r="260" stroke-dasharray="2 12" stroke-linecap="round"/><circle cx="960" cy="420" r="380" opacity=".5"/><circle cx="960" cy="420" r="520" opacity=".25"/></g></svg>')
-    lock=logo('heydoc_white' if dark else 'heydoc','HeyDoc AI','hd-end__lockup','position:relative')
+    lock=logo('heydoc','HeyDoc AI','hd-end__lockup','position:relative')   # colour logo only: the system is white-only
     return (f'<div class="hd-end hd-end--{"dark" if dark else "light"}">{bg}{lock}'
             f'<div class="hd-end__tag" style="position:relative">The Agentic <em>Care OS</em></div>'
             f'<div class="hd-end__url" style="position:relative">{ic("globe","1em")}heydoc.co.in</div></div>')

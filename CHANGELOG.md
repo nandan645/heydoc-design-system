@@ -4,6 +4,12 @@ All notable changes to the HeyDoc Design System. Format: [Keep a Changelog](http
 
 ## [Unreleased]
 
+## [1.0.1] · 2026-11-03
+### Removed
+- White HeyDoc logo (`assets/logos/heydoc_white.webp`): the system has no dark backgrounds.
+### Changed
+- Docs: HeyDoc logo is raster-only (no SVG master); size guidance added.
+
 ## [1.0.0] · 2026-11-03
 ### Added
 - Tokens (`css/tokens.css`, `tokens/tokens.json`): brand, pastel + ink, data, semantic, background, gradient, type (incl. `--font-ui`, `--t-scene`), space, radius, stroke, shadow, motion, partner slot.

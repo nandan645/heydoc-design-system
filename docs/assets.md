@@ -2,7 +2,7 @@
 
 | Folder | Contents | Status |
 |---|---|---|
-| `assets/logos/` | HeyDoc (colour, white) and partner logos as WebP | ⚠️ Raster extracts. **Vector (SVG) masters needed**, see `open-items.md` |
+| `assets/logos/` | HeyDoc colour logo and partner logos as WebP | Raster only (no SVG master exists); use at or below source size |
 | `assets/maps/` | India and Maharashtra outlines (SVG + raw path), land points for the dot globe (`[lat×10, lon×10, region]`) | ⚠️ Boundaries are approximate. Check against the official Survey of India map before any public use |
 | `assets/product-screens/` | HeyDoc's own product screenshots (company brain) | Client branding painted out; user name replaced with "Admin" |
 | `assets/partner-screens/` | Habuild app screens, Pathkind "Tests" screen | 🔒 **Restricted**: supplied by partners for the explainer film only |
@@ -14,8 +14,7 @@ Broader brand library (deck illustrations, hero images, flags, partner logos): *
 
 | File | Use | Rules |
 |---|---|---|
-| `heydoc.webp` | On white | Minimum height 32px on screen; clear space = height of the "hey" |
-| `heydoc_white.webp` | On navy / photos only | The system is white-only, so this is rarely needed |
+| `heydoc.webp` | On white (the only HeyDoc logo; there is no white/reversed version because the system has no dark backgrounds) | 900×542 source: keep it under ~450px wide on a 1920 frame so it stays sharp; minimum height 32px; clear space = height of the "hey" |
 | Partner logos | Logo ring, partner sections | Always on a white `.hd-logotile`, height-matched; never recolour, stretch or crop |
 
 **Government of Maharashtra seal and NHA mark** need **written approval** before any public release.
