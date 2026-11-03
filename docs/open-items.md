@@ -7,16 +7,15 @@ Things that block a public release or need a decision. Update this file when one
 | # | Item | Why | Owner |
 |---|---|---|---|
 | 1 | **Brand fonts licence check**: Open Sans (OFL) and Inter (OFL) are fine; confirm no other brand font is required | Consistency with the deck | Abhinandan |
-| 2 | Access list for the GitHub repository | So the team can clone and review changes | Abhinandan |
 
 ## Approvals before public release
 
 | # | Item | Status |
 |---|---|---|
-| 4 | Government of Maharashtra seal and NHA mark: written approval | Pending |
-| 5 | Partner use of Habuild and Pathkind screenshots and logos outside the film | Pending |
-| 6 | India / Maharashtra map boundaries checked against the official map | Pending |
-| 7 | Hospital name "CPR Hospital" in the camera agent log (real hospital) | Decide: keep or anonymise |
+| 2 | Government of Maharashtra seal and NHA mark: written approval | Pending |
+| 3 | Partner use of Habuild and Pathkind screenshots and logos outside the film | Pending |
+| 4 | India / Maharashtra map boundaries checked against the official map | Pending |
+| 5 | Hospital name "CPR Hospital" in the camera agent log (real hospital) | Decide: keep or anonymise |
 
 ## Illustrative numbers
 
