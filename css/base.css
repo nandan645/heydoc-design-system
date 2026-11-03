@@ -1,0 +1,6 @@
+/* HeyDoc Design System · base.css · reset + type defaults (white canvas, Open Sans, tabular numbers) */
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:#fff}
+body{background:#fff;font-family:var(--font);color:var(--c-text);-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+svg{display:block}
+svg text{font-family:var(--font)}

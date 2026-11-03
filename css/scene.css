@@ -1,0 +1,20 @@
+/* HeyDoc Design System · scene.css · stage, shells and player for animated scenes (used with js/motion.js) */
+.hd-viewport{position:fixed;inset:0;background:#eef1f4;overflow:hidden}
+.hd-stage{position:absolute;left:0;top:0;width:1920px;height:1080px;background:#fff;overflow:hidden;transform-origin:0 0}
+.hd-world{position:absolute;left:960px;top:540px;width:0;height:0}          /* origin at the stage centre */
+/* shape-morph shell: one element that becomes pulse → phone → panel → tile */
+.hd-shell{position:absolute;left:0;top:0;will-change:transform,width,height}
+.hd-shell__bg{position:absolute;inset:0;border-radius:inherit;background:#fff;box-shadow:var(--shadow-layered)}
+.hd-shell__orb{position:absolute;inset:0;border-radius:inherit;background:var(--orb);opacity:0;box-shadow:0 14px 40px rgba(23,137,242,.35)}
+.hd-shell__clip{position:absolute;inset:0;border-radius:inherit;overflow:hidden}
+.hd-shell__content{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+/* headline helper: wrap each word in .w so it can rise word by word */
+.hd-headline .w{display:inline-block;will-change:transform,opacity,filter}
+/* player bar (not part of the frame) */
+.hd-player{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);
+  border-radius:999px;padding:8px 18px 8px 8px;box-shadow:0 10px 30px rgba(1,43,68,.14);font:600 13px var(--font);color:var(--navy);z-index:10}
+.hd-player__pp{width:38px;height:38px;border-radius:50%;border:0;background:var(--grad);background-origin:border-box;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.hd-player__bar{position:relative;width:min(520px,50vw);height:30px;display:flex;align-items:center}
+.hd-player__bar input{width:100%;accent-color:#139bf5;margin:0}
+.hd-player__bar span{position:absolute;top:-6px;font-size:11px;font-weight:800;color:var(--blue);transform:translateX(-50%)}
+.hd-player__tc{min-width:110px;white-space:nowrap;font-variant-numeric:tabular-nums}

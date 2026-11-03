@@ -1,0 +1,70 @@
+/* =====================================================================
+   HeyDoc Design System · tokens.css · v1.0.0
+   The single source of truth for colour, type, space, shape, shadow and motion.
+   Mirrors tokens/tokens.json. Change a value in both; scripts/check_tokens.py verifies they match.
+   ===================================================================== */
+:root{
+  /* --- brand palette (from the deck) --- */
+  --navy:#012b44;  --blue:#0873ba;  --sky:#139bf5;  --pale:#8fcdf8;
+  --tint:#eef7fd;  --line:#d6e7f4;  --muted:#5b6b78; --grey:#f4f6f8; --white:#ffffff;
+  --cyan:#3fd4f6;  --teal:#2ce9d5;
+  /* pastel surfaces + their inks (icon/text placed ON a pastel uses its ink) */
+  --aqua:#caf4f3; --sun:#fff2cd; --peach:#ffdeaf; --mint:#cbefd1; --rose:#fde0da; --lav:#cad4f4;
+  --aqua-ink:#0f8a85; --sun-ink:#a87508; --peach-ink:#bd6512; --mint-ink:#1f8a43; --rose-ink:#c8394f; --lav-ink:#4a5bc4;
+  /* data accents */
+  --d-rose:#ea5c72; --d-mint:#3be6a2; --d-blue:#3fa1f8; --d-violet:#7f7be6; --d-amber:#feb64f;
+
+  /* --- semantic roles --- */
+  --c-primary:var(--blue);       /* key numbers, highlights */
+  --c-primary-deep:var(--navy);  /* headings, body text */
+  --c-secondary:var(--sky);      /* lines, nodes */
+  --c-accent:var(--cyan);        /* gradient end, glow */
+  --c-success:var(--mint-ink);   --c-success-soft:var(--mint);  --c-success-data:var(--d-mint);
+  --c-amber:var(--d-amber);      --c-amber-ink:var(--sun-ink);  --c-amber-soft:var(--sun);
+  --c-red:var(--d-rose);         --c-red-ink:var(--rose-ink);   --c-red-soft:var(--rose);
+  --c-text:var(--navy); --c-text-2:var(--muted); --c-text-3:#9aabb8;
+
+  /* --- backgrounds (white-only system: no dark backgrounds) --- */
+  --bg-light:#ffffff;  --bg-light-2:var(--tint);
+  --bg-wash:linear-gradient(160deg,#fff 0%,#fff 45%,#e9f8fb 70%,#c9f1f4 100%); /* title-slide aqua wash */
+
+  /* --- gradients --- */
+  --grad:linear-gradient(90deg,#1789f2,#3fd4f6);                          /* agent highlight */
+  --grad-teal:linear-gradient(135deg,#72c2ff 0%,#5adcfd 55%,#2ce9d5 100%); /* feature card */
+  --orb:radial-gradient(circle at 28% 18%,#0a84e8 0%,#2ba7f5 55%,#43d0f2 100%); /* hub / pulse core */
+
+  /* --- type --- */
+  --font:'Open Sans',system-ui,sans-serif;   /* everything */
+  --font-ui:'Inter','SF Pro Text',system-ui,sans-serif;   /* only inside phone/app mockups */
+  --t-hero:84px; --t-title:56px; --t-lead:30px; --t-body:28px; --t-small:22px; --t-kicker:19px; --t-cap:20px;
+  --t-scene:60px;  /* on-screen headline in animated scenes (one size for every scene) */
+  --t-mega:280px;  /* full-screen counter */
+  --w-regular:400; --w-semi:600; --w-bold:700; --w-black:800;
+
+  /* --- spacing (8pt) --- */
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px; --s-8:64px; --s-9:96px; --s-10:120px;
+
+  /* --- shape --- */
+  --r-pill:999px; --r-panel:28px; --r-card:24px; --r-plate:22px; --r-inner:16px; --r-sm:12px; --r-xs:8px;
+  --border:2px; --stroke-icon:2.2; --stroke-line:3; --stroke-route:6;
+
+  /* --- shadow (deck: one soft shadow; layered variant for floating elements) --- */
+  --shadow:0 10px 32px rgba(1,43,68,.07);
+  --shadow-layered:0 1px 2px rgba(1,43,68,.05),0 4px 12px rgba(1,43,68,.05),0 10px 32px rgba(1,43,68,.07);
+  --shadow-float:0 2px 6px rgba(1,43,68,.06),0 18px 48px rgba(1,43,68,.14);
+  --shadow-glow:0 12px 30px rgba(23,137,242,.30);
+  --shadow-amber:0 0 0 3px var(--d-amber),0 0 40px rgba(254,182,79,.45);
+
+  /* --- motion --- */
+  --ease-out:cubic-bezier(.22,1,.36,1);
+  --ease-in:cubic-bezier(.55,0,1,.45);
+  --ease-in-out:cubic-bezier(.65,0,.35,1);
+  --ease-spring:cubic-bezier(.34,1.56,.64,1);
+  --ease-linear:linear;
+  --dur-xs:150ms; --dur-s:300ms; --dur-m:600ms; --dur-l:1200ms; --dur-xl:2400ms; --stagger:60ms;
+
+  /* --- partner accent slot (default = HeyDoc blue; override with js/brand.js) --- */
+  --partner:#0873ba; --partner-deep:#065c95; --partner-light:#1ea0f5; --partner-pale:#a1cae5; --partner-line:#cee3f1;
+  --partner-tint:#e6f1f8; --partner-dot:#ccdee9; --partner-ink:#0873ba; --partner-on:#ffffff; --partner-rgb:8,115,186;
+  --partner-orb:radial-gradient(circle at 30% 22%,#065c95 0%,#0873ba 55%,#1ea0f5 100%); --partner-grad:linear-gradient(90deg,#0873ba,#1ea0f5);
+}

@@ -1,0 +1,16 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+# Python
+__pycache__/
+*.pyc
+# build scratch (the generators write here; scripts/build.sh copies into examples/)
+source/board.html
+source/film.html
+# exports
+exports/
+*.mp4
+*.mov
