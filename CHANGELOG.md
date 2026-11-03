@@ -4,6 +4,11 @@ All notable changes to the HeyDoc Design System. Format: [Keep a Changelog](http
 
 ## [Unreleased]
 
+## [1.1.0] · 2026-11-03
+### Added
+- `dist/heydoc.bundle.css` (incl. `.hd-brandmark` HeyDoc logo) and `dist/heydoc.bundle.js`: single-file bundles for artifacts; `scripts/bundle.py` builds them, `build.sh` runs it.
+- Claude skill: `skill/heydoc-design-system/SKILL.md`.
+
 ## [1.0.2] · 2026-11-03
 ### Changed
 - Numbers in examples are illustrative by design (replaced per use case); docs updated.

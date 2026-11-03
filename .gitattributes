@@ -5,3 +5,4 @@
 *.svg text
 *.html text diff=html
 *.md text
+dist/* linguist-generated=true

@@ -5,8 +5,10 @@
 2. Make the change with tokens and existing components (`AGENTS.md` has the rules).
 3. If you changed a token, update **both** `tokens/tokens.json` and `css/tokens.css`, then run `python3 scripts/check_tokens.py`.
 4. If you changed a component, rebuild the board (`./scripts/build.sh`) and check it in a browser.
-5. Add a line to `CHANGELOG.md` under *Unreleased*.
-6. Open a pull request with before/after screenshots. The design owner reviews.
+5. Run `python3 scripts/bundle.py` so `dist/` matches.
+6. If a rule, token value shown in the skill, or component name changed, update `skill/heydoc-design-system/SKILL.md` and re-save the skill in Claude.
+7. Add a line to `CHANGELOG.md` under *Unreleased*.
+8. Open a pull request with before/after screenshots. The design owner reviews.
 
 ## Versioning (semver)
 - **Major:** a token renamed/removed or a component's markup changed in a breaking way.

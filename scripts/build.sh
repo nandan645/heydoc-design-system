@@ -11,3 +11,4 @@ if [[ "${1:-}" == "--film" ]]; then
   echo "✓ examples/explainer-film.html"
 fi
 python3 "$ROOT/scripts/check_tokens.py"
+python3 "$ROOT/scripts/bundle.py"

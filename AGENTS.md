@@ -25,6 +25,7 @@ Don't read `examples/*.html` or `source/` whole: they are large generated files 
 - Government marks and partner screenshots are restricted (`docs/assets.md`).
 
 ## Starting points
+- Single file / Claude artifact → inline `dist/heydoc.bundle.css` + `dist/heydoc.bundle.js`
 - Static frame → copy `examples/starter-frame.html`
 - Animated scene → copy `examples/starter-scene.html`
 - Partner colour → `python3 scripts/brand.py "#HEX"`

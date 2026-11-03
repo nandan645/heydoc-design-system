@@ -47,6 +47,8 @@ No build step and no dependencies. Every file works from `file://`.
 | `assets/logos/` | HeyDoc and partner logos |
 | `assets/maps/` | India and Maharashtra outlines, land points for the dot globe |
 | `assets/partner-screens/` | Partner app screenshots used in the film (**restricted**, see `docs/assets.md`) |
+| `dist/` | Single-file bundles (`heydoc.bundle.css` with the HeyDoc logo, `heydoc.bundle.js`) for artifacts and one-file pages |
+| `skill/` | The Claude skill for this system (`skill/heydoc-design-system/SKILL.md`) |
 | `examples/` | Element board, explainer film (reference implementation), starters |
 | `source/` | Python generators that build the element board and the film |
 | `scripts/` | `build.sh`, `brand.py` (accent calculator), `check_tokens.py` |
@@ -66,6 +68,21 @@ No build step and no dependencies. Every file works from `file://`.
 | [`docs/film.md`](docs/film.md) | The 1:55 explainer film, scene by scene, as a worked example |
 | [`docs/open-items.md`](docs/open-items.md) | Placeholders, approvals and decisions still pending |
 | [`AGENTS.md`](AGENTS.md) | Briefing for AI assistants working in this repo |
+
+## Single-file use (Claude artifacts, email, CodePen)
+
+Link or inline the bundles instead of several files:
+
+```html
+<link rel="stylesheet" href="dist/heydoc.bundle.css">   <!-- includes .hd-brandmark (HeyDoc logo) -->
+<script src="dist/heydoc.bundle.js"></script>
+```
+
+`python3 scripts/bundle.py` regenerates them (also run by `scripts/build.sh`).
+
+## Claude skill
+
+`skill/heydoc-design-system/SKILL.md` teaches Claude to find this repo, follow its rules and build with it; it also carries a summary of the essentials so it works when the repo isn't available. Install it from Claude (Settings → Skills), or save it from the skill card in the conversation. Keep it in sync when tokens or rules change (see `CONTRIBUTING.md`).
 
 ## Rebuilding the board and film
 
