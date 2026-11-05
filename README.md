@@ -49,7 +49,7 @@ No build step and no dependencies. Every file works from `file://`.
 | `assets/partner-screens/` | Partner app screenshots used in the film (**restricted**, see `docs/assets.md`) |
 | `dist/` | Single-file bundles (`heydoc.bundle.css` with the HeyDoc logo, `heydoc.bundle.js`) for artifacts and one-file pages |
 | `skill/` | The Claude skill for this system (`skill/heydoc-design-system/SKILL.md`) |
-| `examples/` | Element board, explainer film (reference implementation), starters |
+| `examples/` | Element board, explainer film (reference implementation), futureK member-journey film (client example), starters |
 | `source/` | Python generators that build the element board and the film |
 | `scripts/` | `build.sh`, `brand.py` (accent calculator), `check_tokens.py` |
 | `docs/` | The written system. Start with `docs/README.md` |

@@ -4,6 +4,10 @@ All notable changes to the HeyDoc Design System. Format: [Keep a Changelog](http
 
 ## [Unreleased]
 
+## [1.1.1] · 2026-11-05
+### Added
+- `examples/futurek-member-journey-film.html`: futureK × HeyDoc AI client film (2:14), built on the 1.1.0 bundle.
+
 ## [1.1.0] · 2026-11-03
 ### Added
 - `dist/heydoc.bundle.css` (incl. `.hd-brandmark` HeyDoc logo) and `dist/heydoc.bundle.js`: single-file bundles for artifacts; `scripts/bundle.py` builds them, `build.sh` runs it.

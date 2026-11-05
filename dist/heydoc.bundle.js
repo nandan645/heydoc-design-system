@@ -1,4 +1,4 @@
-/* HeyDoc Design System 1.1.0 · single-file bundle: motion.js + brand.js (generated, do not edit) */
+/* HeyDoc Design System 1.1.1 · single-file bundle: motion.js + brand.js (generated, do not edit) */
 /* =====================================================================
    HeyDoc Design System · motion.js · v1.0.0
    Deterministic motion helpers: every frame is a pure function of time t (seconds).

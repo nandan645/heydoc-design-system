@@ -34,4 +34,8 @@
 
 The film is generated from `source/gen/` (`film.py` + `act2.py` … `act5.py`). `./scripts/build.sh --film` writes `examples/explainer-film.html`. Text edits made in the film's Edit mode live in the saved HTML, not in the source: carry them back into `film.py` before rebuilding.
 
+## Second example: futureK member journey (`examples/futurek-member-journey-film.html`)
+
+A 2:14 client film for futureK (Malaysia), built on the 1.1.0 bundle: a rider's day with HeyDoc agents, from "I need a doctor" in any language to teleconsult, pharmacy, partner clinics, Care Pass and screening results. Useful patterns: a phone at the centre with explainer cards on both sides joined by dotted connectors, timestamp chips above the phone, chat sequences that pop message by message, and "Illustrative" tags on every data card. Client branding and names are futureK's (restricted, like partner screens).
+
 Audio script and voice prompts: Claude Doc "HeyDoc AI Film · Audio Script".
